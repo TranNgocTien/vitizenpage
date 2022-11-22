@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body>
+    <nav>
+      
+      <form class="login">
+        <input
+          type="text"
+          placeholder="user"
+          class="login__input login__input--user"
+        />
+        <!-- In practice, use type="password" -->
+        <input
+          type="text"
+          placeholder="PIN"
+          maxlength="4"
+          class="login__input login__input--pin"
+        />
+        <button class="login__btn">&rarr;</button>
+      </form>
+    </nav>
+    <main class="app">
+        <div class="container_addItem">
+     <div class=" class="input_addItem""> <!-- BALANCE -->
+      <form class="addItem">
+        <input class="input_addItem input_title" type="text" placeholder="title" />
+        <input class="input_addItem input_link_image" type="text" placeholder="link image" />
+        <input class="input_addItem input_description" type="text" placeholder="description" />
+        <input class="input_addItem input_cost_item" type="number" placeholder="cost item" />
+      </form>
+      <button class="submit">Add item</button>
+    </div>
+    <img src="./image/insertImage.png" alt="">
+</div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

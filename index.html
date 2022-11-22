@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <title>Vitizen</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img src="image/logo/logo.jpg" alt="Yến sào logo" class="nav__logo" id='logo'/>
+            <ul class="nav__links">
+                <li class="nav__item"><a href="#section--1" class="nav__link">Công dụng</a></li>
+                <li class="nav__item"><a href="#section--2" class="nav__link">Sản Phẩm</a></li>
+                <li class="nav__item"><a href="#section--3" class="nav__link">Ưu đãi</a></li>
+            </ul>
+        </nav>
+        <div style="padding-top: 10rem;" class="header__title">
+            <h1><span class="highlight"> Vitizen</span> </h1>
+            <h4> Nơi cung cấp những sản phẩm chất lượng <br /> cho người Việt Nam. </h4>
+            <img src="image/download.jpeg" alt="Yến Sào" class="header__img"/>
+        </div>
+    </header>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+      <button for="navi-toggle" class="navigation__button">
+          <span class="navigation__icon">&nbsp;</span>
+      </button>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav" id="navigation__nav_none">
+          <div class="nav_login">
+          
+            <img src="./image/logo/logo.jpg" alt="Logo" class="logo-nav" />
+            <form class="login">
+              <input
+                type="text"
+                placeholder="user"
+                class="login__input login__input--user"
+              />
+              <!-- In practice, use type="password" -->
+              <input
+                type="text"
+                placeholder="PIN"
+                maxlength="4"
+                class="login__input login__input--pin"
+              />
+              <button class="login__btn">&rarr;</button>
+            </form>
+          </div>
+          <main class="app">
+              <div class="container_addItem">
+           <div class=" class="input_addItem""> <!-- BALANCE -->
+            <form class="addItem">
+              <input class="input_addItem input_title" type="text" placeholder="title" />
+              <input class="input_addItem input_link_image" type="text" placeholder="link image" />
+              <input class="input_addItem input_description" type="text" placeholder="description" />
+              <input class="input_addItem input_cost_item" type="number" placeholder="cost item" />
+            </form>
+            <button class="submit">Add item</button>
+          </div>
+          <img src="./image/insertImage.png" alt="">
+      </div>
+      </nav>
+  </div>
+
+  <div class="navigation__cart">
+    <input type="checkbox_cart" class="navigation__checkbox_cart" id="navi-toggle">
+
+    <button for="navi-toggle" class="navigation__button_cart">
+        <span class="navigation__icon_cart"><img class="navigation_shopping_cart" src="./image/shopping-cart.png" alt=""></span>
+    </button>
+
+    <div class="navigation__background_cart">&nbsp;</div>
+
+    <nav class="navigation__nav_cart"id='navigation__nav_cart_none'>
+      <div class="logo_cart_parent">
+        <img src="./image/shopping-cart.png" alt="logo" class="logo_cart">
+      </div>
+      <div class="cart_list_parent">
+          <div class="cart_list">
+            <div class="item__card">
+              <h5 class="testimonial__header">Lorem ipsum dolor sit amet</h5>
+              <img src="./image/yensao.jpeg" alt="" class="testimonial__photo" />
+              <blockquote class="testimonial__text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Accusantium quas quisquam non? 
+                </blockquote>
+                <address class="testimonial__author">
+                  <button class="testimonial__remove"><img class ="remove-item" src="./image/close.png"/></button>
+                  <p class="testimonial__location">59.000 VND</p>
+                </address>
+              </div>
+          </div>
+        </div>
+        <div class="total-cost">
+          
+          <p class="total-cost-content">50000</p>
+          
+        </div>
+    </nav>
+    </div>
+    <section class="section" id="section--1">
+        <div class="section__title">
+            <h2 class="section_description">Công dụng sản phẩm</h2>
+            <h3 class="section-header">
+              Thực phẩm bổ dưỡng sức khoẻ
+            </h3>
+        </div>
+
+        <div class="features">
+            <img src="./image/nguoibenh.jpeg" alt="Yến sào" class="features_img"/>
+            <div class="features__feature">
+                
+                <h5 class="feature_header"> Hiệu quả phục hồi đối với người bệnh</h5>
+                <p>Kích thích tiêu hóa, giúp ăn uống ngon miệng, giảm ho, long đờm</p>
+                
+            </div>
+
+            <div class="features__feature">
+                
+                <h5 class="feature_header"> Quà tặng</h5>
+                <p>Quà tặng cho người thân,thể hiện sự quan tâm về sức khoẻ. Gắn kết tình yêu thương dành cho gia đình.</p>
+                
+            </div>
+            <img src="./image/quatang.jpeg" alt="Yến sào" class="features_img"/>
+            <img src="./image/hocssinh.jpeg" alt="Yến sào" class="features_img"/>
+            <div class="features__feature">
+                
+                <h5 class="feature_header"> Bồi bổ sức khoẻ đối với người đi làm, học sinh, sinh viên</h5>
+                <p>Sản phẩm giúp an thần, bổ não,tăng cường trí nhớ</p>
+                
+            </div>
+        </div>
+
+       
+    </section>
+
+    <section class="section" id="section--2">
+        <div class="section__title section__title--testimonials">
+            <h2 class="section__description">Các sản phẩm hiện đang có sẵn</h2>
+            <h3 class="section-header">
+                Đa dạng các mặt hàng, đáp ứng mọi phân khúc
+            </h3>
+        </div>
+
+        <div class="slider">
+            <div class="slide">
+                <div class="testimonial">
+                    <div class="item__card">
+                    <h5 class="testimonial__header">Lorem ipsum dolor sit amet</h5>
+                    <img src="./image/yensao.jpeg" alt="" class="testimonial__photo" />
+                    <blockquote class="testimonial__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Accusantium quas quisquam non? 
+                      </blockquote>
+                      <address class="testimonial__author">
+                        <button class="testimonial__buy"><img class ="shopping-cart-icon" src="./image/shopping-cart.png"/></button>
+                        <p class="testimonial__location">59.000 VND</p>
+                      </address>
+                    </div>
+
+                    <!-- <div class="item__card">
+                        <h5 class="testimonial__header">Lorem ipsum dolor sit amet</h5>
+                        <img src="./image/yensao.jpeg" alt="" class="testimonial__photo" />
+                        <blockquote class="testimonial__text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Accusantium quas quisquam non? 
+                          </blockquote>
+                          <address class="testimonial__author">
+                            <h6 class="testimonial__name">lorem</h6>
+                            <p class="testimonial__location">50.000 VND</p>
+                          </address>
+                        </div>
+
+                        <div class="item__card">
+                            <h5 class="testimonial__header">Lorem ipsum dolor sit amet</h5>
+                            <img src="./image/yensao.jpeg" alt="" class="testimonial__photo" />
+                            <blockquote class="testimonial__text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Accusantium quas quisquam non? 
+                              </blockquote>
+                              <address class="testimonial__author">
+                                <h6 class="testimonial__name">lorem</h6>
+                                <p class="testimonial__location">50.000 VND</p>
+                              </address>
+                            </div>
+                            <div class="item__card">
+                              <h5 class="testimonial__header">Lorem ipsum dolor sit amet</h5>
+                              <img src="./image/yensao.jpeg" alt="" class="testimonial__photo" />
+                              <blockquote class="testimonial__text">
+                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                  Accusantium quas quisquam non? 
+                                </blockquote>
+                                <address class="testimonial__author">
+                                  <h6 class="testimonial__name">lorem</h6>
+                                  <p class="testimonial__location">50.000 VND</p>
+                                </address>
+                              </div> -->
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-pricing" id="section--3">
+        <div class="container">
+          <span class="subheading">Các combo khuyến mãi</span>
+          <h2 class="heading-secondary">
+            Ưu đãi quà tặng ngày 20/11 
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="princing-plan princing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">Lorem</p>
+              <p class="plan-price"><span>$</span>111</p>
+              <p class="plan-text">lorem</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>lorem</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>lorem</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>lorem</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="#" class="btn btn--full">Start </a>
+            </div>
+          </div>
+
+          <div class="princing-plan princing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">lorem</p>
+              <p class="plan-price"><span>$</span>222</p>
+              <p class="plan-text">lorem</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span><strong>lorem</strong> lorem</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>lorem <strong>lorem</strong></span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>lorem</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>lorem</span>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="#" class="btn btn--full">lorem</a>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+            <div class="container grid grid--footer">
+              <div class="logo-col">
+                <a href="#" class="footer-logo">
+                  <img style="height: 5rem;" class="logo" alt="Omnifood logo" src="image/logo/logo.jpg" />
+                </a>
+      
+                <ul class="social-links">
+                  <li>
+                    <a class="footer-link" href="#"
+                      ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="footer-link" href="#"
+                      ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="footer-link" href="#"
+                      ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+                    ></a>
+                  </li>
+                </ul>
+      
+                <p class="copyright">
+                  Copyright &copy; 2027 by Yen Sao, Inc. All rights reserved.
+                </p>
+              </div>
+              <div class="address-col">
+                <p class="footer-heading">Contact us</p>
+                <address class="contacts">
+                  <p class="address">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <p>
+                    <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+                    ><br />
+                    <a class="footer-link" href="mailto:hello@yensao.com"
+                      >hello@yensao.com</a
+                    >
+                  </p>
+                </address>
+              </div>
+              <nav class="nav-col">
+                <p class="footer-heading">Account</p>
+                <ul class="footer-nav">
+                  <li><a class="footer-link" href="#">Create account</a></li>
+                  <li><a class="footer-link" href="#">Sign in</a></li>
+                  <li><a class="footer-link" href="#">iOS app</a></li>
+                  <li><a class="footer-link" href="#">Android app</a></li>
+                </ul>
+              </nav>
+      
+              <nav class="nav-col">
+                <p class="footer-heading">Company</p>
+                <ul class="footer-nav">
+                  <li><a class="footer-link" href="#">About Vitizen</a></li>
+                  <li><a class="footer-link" href="#">For Business</a></li>
+                  <li><a class="footer-link" href="#">Partners</a></li>
+                  <li><a class="footer-link" href="#">Careers</a></li>
+                </ul>
+              </nav>
+      
+              <nav class="nav-col">
+                <p class="footer-heading">Resources</p>
+                <ul class="footer-nav">
+                  <li><a class="footer-link" href="#">Recipe directory </a></li>
+                  <li><a class="footer-link" href="#">Help center</a></li>
+                  <li><a class="footer-link" href="#">Privacy & terms</a></li>
+                </ul>
+              </nav>
+            </div>
+          </footer>
+          <script src="./app.js"></script>
+</body>
+</html>
